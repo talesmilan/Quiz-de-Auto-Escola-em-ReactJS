@@ -1,0 +1,29 @@
+.opcoes {
+    background-color: rgb(33, 148, 23);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.opcoes:hover {
+    opacity: 1;
+}
+
+#options-container .opcoes p {
+    margin-bottom: 0;
+}
+
+.correto {
+    background-color: #0bfc03;
+    font-weight: bold;
+    border: 3px solid #fff;
+}
+
+.errado {
+    background-color: #0d922a;
+    opacity: 0.4;
+}
+

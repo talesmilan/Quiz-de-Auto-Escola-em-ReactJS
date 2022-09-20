@@ -1,9 +1,9 @@
 import './App.css'
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { QuizContext } from './context/Quiz'
 import BoasVindas from './componentes/BoasVindas'
 import Questoes from './componentes/Questoes'
-import { useEffect } from 'react'
+import FimDeJogo from './componentes/FimDeJogo'
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
       <h1>Quiz de Auto-escola</h1>
       {quizState.gameStage === "Inicio" && <BoasVindas />}
       {quizState.gameStage === "Meio" && <Questoes />}
+      {quizState.gameStage === "Fim" && <FimDeJogo />}
     </div>
   )
 }

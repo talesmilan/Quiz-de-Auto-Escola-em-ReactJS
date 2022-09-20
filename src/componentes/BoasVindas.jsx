@@ -7,8 +7,6 @@ const BoasVindas = () => {
 
     const [quizState, dispatch] = useContext(QuizContext)
 
-    console.log(quizState)
-
   return (
     <div id="boas_vindas">
         <h2>Seja bem-vindo!</h2>

@@ -21,8 +21,8 @@ const data = [
     },
     {
       question: "Dirigir com validade de CNH vencida há mais de 30 dias, é infração:",
-      options: ["querySelector", "parseInt", "sort", "reduce"],
-      answer: "querySelector",
+      options: ["Leve", "Média", "Grave", "Gravíssima"],
+      answer: "Gravíssima",
     },
     {
       question: "Para ajudar a manter as vias de trânsito limpas e em condições de uso devemos:",
