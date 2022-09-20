@@ -1,0 +1,17 @@
+#boas_vindas {
+    text-align: center;
+    max-width: 500px;
+}
+
+#boas_vindas h2,
+#boas_vindas p {
+    margin-bottom: 1rem;
+}
+
+#boas_vindas p {
+    color: #19d300
+}
+
+#boas_vindas img {
+    margin-top: 2rem;
+}

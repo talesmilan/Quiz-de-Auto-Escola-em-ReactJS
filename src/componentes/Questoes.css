@@ -1,0 +1,19 @@
+#questoes {
+    text-align: center;
+    max-width: 500px;
+    background-color: #38ce1a;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+#questoes h2 {
+    margin-bottom: 2rem;
+}
+
+#questoes p {
+    margin-bottom: 1rem;
+}
+
+#questoes button {
+    border: 2px solid #fff;
+}
